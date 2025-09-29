@@ -1,9 +1,11 @@
 .header{
     display: block;
+    padding-top: 80px;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
 }
 
 
@@ -15,6 +17,16 @@ body {
 hr {
     width: 100%;
     color: rgba(0, 0, 0, 0.283);
+}
+
+.line {
+    display: block;
+    width: 613px;
+}
+.endline {
+    display: block;
+    padding-top: 20px;
+    width: 613px;
 }
 
 
@@ -32,6 +44,34 @@ hr {
 form {
     padding-inline: 20px;
     font-size: 14px;
+}
+
+input {
+    width: 400px;
+    border: 1px solid rgba(111, 111, 111, 0.45);
+    height: 20px;
+}
+
+.rn1 {
+    width: 180px;
+    border: 1px solid rgba(111, 111, 111, 0.45);
+    height: 20px;
+}
+
+select {
+    width: 408px;
+    background-color: white;
+    border: 1px solid rgba(111, 111, 111, 0.45);
+    height: 24px;
+}
+
+.find {
+    width: 100px;
+    height: 30px;
+    margin-left: 508px;
+    background-color: rgb(88, 152, 254);
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 label {
