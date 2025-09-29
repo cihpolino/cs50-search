@@ -1,0 +1,52 @@
+.header{
+    display: block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.red { color: rgb(255, 47, 0); }
+.blue { color: rgb(0, 110, 255); }
+.yellow { color: rgb(255, 187, 0); }
+.green { color: rgb(30, 182, 7); }
+
+hr {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.283);
+}
+
+
+.Find_pages {
+    display: block;
+    align-content: start;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+form {
+    padding-inline: 20px;
+    font-size: 14px;
+}
+
+label {
+    width: 180px;
+}
+
+#dash {
+    padding: 15px;
+}
+
+#test {
+    display: block;
+    padding-bottom: 30px;
+}
+#test h3 {
+    padding-left: 20px;
+    margin: 0;
+}

@@ -1,3 +1,17 @@
+.header{
+    display: block;
+}
+
+.red { color: rgb(255, 47, 0); }
+.blue { color: rgb(0, 110, 255); }
+.yellow { color: rgb(255, 187, 0); }
+.green { color: rgb(30, 182, 7); }
+
+hr {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.283);
+}
+
 #logo {
     width: 350px;
     padding-left: 30px;
@@ -54,4 +68,25 @@ button {
     border-radius: 50px;
     background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.Find_pages {
+    background-color: brown;
+    display: block;
+    align-content: start;
+}
+
+.row {
+  display: flex;
+  align-items: baseline;
+  margin: 20px;
+}
+
+.Additional_settings {
+    display: block;
+}
+
+#test {
+    background-color: aqua;
+    display: block;
 }

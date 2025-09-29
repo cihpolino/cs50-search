@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Not advanced search</title>
+        <link rel="stylesheet" href="adv_style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Advanced 
+                  <span class="blue">s</span><!--
+                  --><span class="red">e</span><!--
+                  --><span class="yellow">a</span><!--
+                  --><span class="blue">r</span><!--
+                  --><span class="green">c</span><!--
+                  --><span class="red">h</span>
+            <hr>
+        </div>
+            <form action="https://www.google.com/search" method="get">
+                <div id="test">
+                    <h3>Find pages</h3>
+                    <div class="Find_pages">
+
+                          <div class="row">
+                            <label>With the words:</label>
+                            <input type="text" name="as_q">
+                          </div>
+
+                          <div class="row">
+                            <label>With the phrase:</label>
+                            <input type="text" name="as_epq">
+                          </div>
+
+                          <div class="row">
+                            <label>With any of these words:</label>
+                            <input type="text" name="as_oq">
+                          </div>
+
+                          <div class="row">
+                            <label>Without words:</label>
+                            <input type="text" name="as_eq">
+                          </div>
+
+                          <div class="row">
+                            <label>With range of numbers:</label>
+                            <input type="text" name="as_nlo"><span id="dash">-</span><input type="text" name="as_"nhi>
+                          </div>
+                        </div>
+                    <div>
+                        <hr>
+                    </div>
+                </div>
+
+        </div>
+        <div>
+
+                <div id="test">
+                    <h3>Additional settings</h3>
+                    <div class="Find_pages">
+
+                        <div class="row">
+                            <label>Search for:</label>
+                            <select name="lr" id="">
+                                <option value="" >Any languages</option>
+                                <option value="lang_en" >English</option>
+                                <option value="lang_uk" >Ukranian</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <label>Country:</label>
+                            <select name="cr" id="">
+                                <option value="">Any</option>
+                                <option value="countryUA">Ukraine</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <label>Date of update:</label>
+                            <select name="as_qdr" id="">
+                                <option value="">Any</option>
+                                <option value="d">Last 24 hours</option>
+                                <option value="w">Last week</option>
+                                <option value="m">Last month</option>
+                                <option value="y">Last year</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <label>Website or domain:</label>
+                            <input type="text" name="as_sitesearch">
+                        </div>
+
+                        <div class="row">
+                            <label>Location of words:</label>
+                            <select name="as_occt" id="">
+                                <option value="any">anywhere on the page</option>
+                                <option value="title">in the page title</option>
+                                <option value="body">in the text of a page</option>
+                                <option value="url">the URL of the page</option>
+                                <option value="links">in links to the page</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <label>File format:</label>
+                            <select name="as_filetype" id="">
+                                <option value="">Any</option>
+                                <option value="docx">Microsoft Word</option>
+                                <option value="">I am lazy to add all</option>
+                            </select>
+                        </div>
+                        </div>
+                        <div>
+                            <input type="submit" value="Find">
+                        </div>
+                    <div>
+                        <hr>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
